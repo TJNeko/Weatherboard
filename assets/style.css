@@ -20,3 +20,10 @@ button {
    margin-top: 10px;
    background-color: rgb(24, 24, 80);
 }
+
+#weatherNow {
+    position: relative;
+    left: 400px;
+    width: 400px;
+    height: 200px;
+}
