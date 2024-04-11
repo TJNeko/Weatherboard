@@ -21,9 +21,33 @@ button {
    background-color: rgb(24, 24, 80);
 }
 
+.weather-data {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 #weatherNow {
     position: relative;
-    left: 400px;
-    width: 400px;
+    left: 650px;
+    bottom: 350px;
+    width: 600px;
     height: 200px;
+}
+
+#forecast {
+    width:1900px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+}
+.forecast-item {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
