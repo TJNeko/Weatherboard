@@ -8,8 +8,8 @@ document.getElementById('searchForm').addEventListener('submit', function(event)
     const cityInput = document.getElementById('cityInput').value;
     let city = cityInput;
 
-    const weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
-    const forecastURL = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
+    const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
+    const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIKey}`;
 
     fetch(weatherURL)
         .then(response => response.json())
